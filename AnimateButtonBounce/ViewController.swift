@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+     
     var didLike: Bool = false {
         didSet {
             let likeImageForNormal = didLike ? likeIconFilled : likeIcon
